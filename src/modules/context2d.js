@@ -2374,8 +2374,7 @@ import {
               [JSON.parse(JSON.stringify(baselineRect))],
               this.posX + this.margin[3],
               -previousPageHeightSum +
-                topMargin +
-                this.ctx.prevPageLastElemOffset
+                topMargin
             )[0];
 
             const needsClipping =
